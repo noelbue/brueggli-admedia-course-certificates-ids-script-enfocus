@@ -1,0 +1,29 @@
+2025-11-18 13:32:18 CEST	INFO  | Starte mit main() ...
+2025-11-18 13:32:18 CEST	DEBUG | Dokument-Anzahl: 1
+2025-11-18 13:32:18 CEST	DEBUG | Dokument-Name: _00O1L_Testfile_Noel.indd
+2025-11-18 13:32:18 CEST	DEBUG | archiveName = Archive
+2025-11-18 13:32:18 CEST	DEBUG | sourceFilePath = C:\Enfocus_Switch_Flowdaten\Kurszertifikate\CSV_IMAGES\Archive\my.csv
+2025-11-18 13:32:18 CEST	INFO  | Lese das CSV my.csv ...
+2025-11-18 13:32:18 CEST	INFO  | CSV Inhalt: name,@image_url,Anna,A.png,Ben,B.png,Carla,C.png
+2025-11-18 13:32:18 CEST	DEBUG | Total Records = 3
+2025-11-18 13:35:18 CEST	INFO  | Starte main() ...
+2025-11-18 13:35:18 CEST	DEBUG | Dokument-Anzahl: 1
+2025-11-18 13:35:18 CEST	DEBUG | Template: _00O1T_Testfile_Noel.indd
+2025-11-18 13:35:18 CEST	DEBUG | archiveName = Archive
+2025-11-18 13:35:18 CEST	DEBUG | CSV Pfad: C:\Enfocus_Switch_Flowdaten\Kurszertifikate\CSV_IMAGES\Archive\my.csv
+2025-11-18 13:35:18 CEST	INFO  | Lese CSV: my.csv
+2025-11-18 13:35:18 CEST	DEBUG | CSV Zeilen: 4
+2025-11-18 13:37:55 CEST	INFO  | Starte mit main() ...
+2025-11-18 13:37:55 CEST	DEBUG | Dokument-Anzahl: 1
+2025-11-18 13:37:55 CEST	DEBUG | Dokument-Name: _00O21_Testfile_Noel.indd
+2025-11-18 13:37:55 CEST	DEBUG | archiveName = Archive
+2025-11-18 13:37:55 CEST	DEBUG | sourceFilePath = C:\Enfocus_Switch_Flowdaten\Kurszertifikate\CSV_IMAGES\Archive\my.csv
+2025-11-18 13:37:55 CEST	INFO  | Lese das CSV my.csv ...
+2025-11-18 13:37:55 CEST	INFO  | CSV Inhalt: name,@image_url,Anna,A.png,Ben,B.png,Carla,C.png
+2025-11-18 13:37:55 CEST	DEBUG | Total Records = 3
+2025-11-18 13:37:55 CEST	DEBUG | Extrahierte Namen: Anna,Ben,Carla
+2025-11-18 13:37:55 CEST	INFO  | Starte Merge-Schleife ...
+2025-11-18 13:37:55 CEST	INFO  | Merging record 1
+2025-11-18 13:37:55 CEST	INFO  | Merging record 2
+2025-11-18 13:37:55 CEST	INFO  | Merging record 3
+2025-11-18 13:37:56 CEST	INFO  | Template geschlossen.
