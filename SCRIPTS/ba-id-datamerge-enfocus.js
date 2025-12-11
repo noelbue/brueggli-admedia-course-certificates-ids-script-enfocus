@@ -78,21 +78,21 @@ function main() {
   logg(logLevelDebug + logLevelSeperator + "Total Records = " + totalRecords);
 
   // -----------------------------
-  // CSV FELD "name" EXTRAHIEREN
+  // CSV FELD "Teilnehmer" EXTRAHIEREN
   // -----------------------------
   var header = lines[0].split(",");
-  var nameIndex = -1;
-  
+  var nameIndex = -5;
+
   // indexOf Ersatz für ExtendedScript
   for (var h = 0; h < header.length; h++) {
-    if (header[h] === "name") {
+    if (header[h] === "Teilnehmer") {
       nameIndex = h;
       break;
     }
   }
 
   if (nameIndex === -1) {
-    logg(logLevelError + logLevelSeperator + "CSV hat kein Feld 'name'");
+    logg(logLevelError + logLevelSeperator + "CSV hat kein Feld 'Teilnehmer'");
     return;
   }
 
@@ -103,7 +103,9 @@ function main() {
     recordNames.push(cols[nameIndex]);
   }
 
-  logg(logLevelDebug + logLevelSeperator + "Extrahierte Namen: " + recordNames);
+  logg(
+    logLevelDebug + logLevelSeperator + "Extrahierte Teilnehmer: " + recordNames
+  );
 
   // -----------------------------
   // DATENZUSAMMENFÜHRUNG SETUP
